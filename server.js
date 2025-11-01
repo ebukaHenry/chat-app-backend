@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://chat-app-backend-qz1e.onrender.com",
+  "https://chat-app-five-sooty-39.vercel.app",
 ]
 
 const io = new Server(server, {
